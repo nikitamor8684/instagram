@@ -10,8 +10,8 @@ function Sidebar(){
 <h2 style={{ fontFamily: "Lobster, cursive", margin:"37px"}}>Instagram</h2>
 <div>
     <span>
-<ul style={{divstStyle:"none",fontSize:"20px"}}>
-<Link to='/home' style={{textDecoration:'none'}}>
+<ul style={{listStyle:"none",fontSize:"20px"}}>
+<Link to='/home' style={{textDecoration:'none'}} active>
 <button  className='sidenav__button'><i className="fas fa-home"> </i><span>Home</span></button>
 </Link>
 <Link to='/search' style={{textDecoration:'none'}}><button  className='sidenav__button'>

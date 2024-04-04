@@ -9,18 +9,13 @@ import Data from'../Data.json';
 function Home(){
     return(
         <>
-        <div>
-            <span style={{diplay:'flex',flexDirection:'column',width:'20%',float:'left'}}>  <Sidebar /></span>
+        <div style={{display:'flex',flexDirection:'row'}}>
+            <div style={{display:'flex',flexDirection:'column',width:'20%'}}>  <Sidebar /></div>
       
-      
-        <span style={{ width:"20%",float:"right"}}><Suggs /></span>
-     
-
-            <span style={{diplay:'flex',flexDirection:'column',width:'60%',float:'right'}}>
-
-                <span style={{overflowX:'auto',overflowY:'hidden',width:'500px',height:'100px',position: 'relative'}}>
-                    <span        style={{display:'inline-1flex'}}  >
-             
+      <div style={{width:'60%',display:'flex',flexDirection:'column'}}>
+            {/* <div style={{diplay:'flex',flexDirection:'column',width:'80%'}}> */}
+                <div style={{display:'flex',flexDirection:'row',overflowX:'auto',overflowY:'hidden',scrollbarWidth:'none',height:'100px',width:'100%'}}>
+              
                 <Story imgsrc ={img} />
            <Story imgsrc ={img} />
             <Story imgsrc ={img} />
@@ -32,12 +27,9 @@ function Home(){
            <Story imgsrc ={img} /> <Story imgsrc ={img} />
            <Story imgsrc ={img} /> <Story imgsrc ={img} />
            <Story imgsrc ={img} />
-           </span>
-           </span>
-                
-
-   <span > 
-   {/* diplay:'flex',flexDirection:'column', */}
+           
+           </div>
+   <div style={{width:'80%'}}> 
    {Data.map((post) =>{
     return(
     <Post user={post.user}
@@ -47,11 +39,14 @@ function Home(){
     />
     );
    })}
-    </span>
+    </div>
             
-        </span> 
-     
-       
+     </div>
+     {/* {Data.map((post) =>{
+    return( */}
+        <div style={{ width:"20%",marginLeft:'20px',display:'flex',flexDirection:'column'}}><Suggs /></div>
+    {/* );
+    })} */}
        
         </div>
         </>

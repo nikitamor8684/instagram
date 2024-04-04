@@ -17,7 +17,7 @@ function Post(props){
             <img src={props.imgsrc} alt="Post Image" style={{height:'400px'}} />
         </div>
 
-        <div className="actions" style={{}}>
+        <div className="actions" >
             <i className="fas fa-heart" style={{margin:'4px'}}></i>
             <i className="fas fa-comment" style={{margin:'4px'}}></i>
             <i className="fas fa-paper-plane"style={{margin:'4px'}}></i>
