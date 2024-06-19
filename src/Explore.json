@@ -1,59 +1,48 @@
 
 [
     {
-   "user":"Nikita",
+   "id":"1",
    "postImage":"https://plus.unsplash.com/premium_photo-1686149758342-9f0f249f2989?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-   
-   "Likes":0,
-   "Timestamp":"2d"
+   "caption":"aewsome photo"
        },
        {
-       "user":"Neha",
+       "id":"2",
    "postImage":"https://images.unsplash.com/photo-1711976972831-d81e4a3c9d33?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-   "Likes":0,
-   "Timestamp":"3d"
+   "caption":"aewsome photo"
        },
        {
-           "user":"Nancy",
+           "id":"3",
        "postImage":"https://images.unsplash.com/photo-1711861413115-797ee0655214?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dv",
-       "Likes":0,
-       "Timestamp":"4d"
+       "caption":"aewsome photo"
            },
                {
-       "user":"Payal",
+       "id":"4",
    "postImage":"https://images.unsplash.com/photo-1712079679970-bb45e9ef5b2a?q=80&w=1454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-   "Likes":0,
-   "Timestamp":"1d"
+   "caption":"aewsome photo"
        },
        {
-           "user":"Garima",
+           "id":"5",
        "postImage":"https://images.unsplash.com/photo-1711539924968-81d3382a85d9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-       "Likes":0,
-       "Timestamp":"3d"
+       "caption":"aewsome photo"
            },
            {
-               "user":"Kajal",
+               "id":"6",
            "postImage":"https://images.unsplash.com/photo-1712068968581-ed69e8f4a5ea?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-           "Likes":0,
-           "Timestamp":"3d"
+           "caption":"aewsome photo"
                },      
                {
-                   "user":"Disha",
+                   "id":"7",
                "postImage":"https://plus.unsplash.com/premium_photo-1712039658651-e0ebe853d103?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-               "Likes":0,
-               "Timestamp":"7d"
+               "caption":"aewsome photo"
                    },
                    {
-                       "user":"Tannu",
+                       "id":"8",
                    "postImage":"https://images.unsplash.com/photo-1582567397638-559df60a4d24?q=80&w=1512&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                   "Likes":0,
-                   "Timestamp":"3d"
+                   "caption":"aewsome photo"
                        },
                        {
-                           "user":"Riya",
+                           "id":"9",
                        "postImage":"https://images.unsplash.com/photo-1711479613429-41a69babba6d?q=80&w=1488&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                       "Likes":0,
-                       "Timestamp":"2d"
+                       "caption":"aewsome photo"
                            }                                                     
                        ]
-                 

@@ -3,11 +3,10 @@ import React from 'react';
 function Search(){
     return(
         <>
-        <div style={{float:'right'}}>
+        <div >
 
-        <input type='search' style={{width:'100%',display:'block'}} />
+        <input type='search'  className='search' placeholder='Search' />
         </div>
-    
         </>
     )
 }
